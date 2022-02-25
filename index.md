@@ -3,19 +3,11 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+# Hello Arduino: Introducing Microcontrollers, Code, and Simple Circuits for Everyone!
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="ArduinoUnoR3.jpg" alt="arduino uno development board" width="75%" %}
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
-
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+Learn about the [Arduino](https://www.arduino.cc/) electronics platform by making lights blink and buzzers buzz! Using simple, open-source, and interactive hardware and software components, Arduino makes learning code and creating physical computing projects easy. During this workshop we will build basic electronic circuits and program an Arduino micro controller. This is an introduction for beginners from all backgrounds, no experience with electronics or coding required!
 
 {% include toc.html %}
 
@@ -24,3 +16,5 @@ Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub
 ------
 
 {% include template/credits.html %}
+
+Home page image: ["Arduino Uno R3", SparkFun, WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg).

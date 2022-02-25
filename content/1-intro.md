@@ -1,37 +1,45 @@
 ---
-title: Introduction
+title: 1.0 - Introducing Arduino UNO 
 nav: Intro
 ---
 
-`workshop-template-b` is a Jekyll project to create a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
+Meet your *microcontroller*!
 
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
+![arduino board with parts labelled](images/arduino_intro1.jpg "arduino board")
 
-### Why?
+[Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) is an easy to use prototyping board based on **open-source** hardware and software. It can be programmed using Arduino's basic [language](https://www.arduino.cc/en/Reference/HomePage) to create interactive physical computing projects. 
 
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and GitHub Pages makes this pretty easy.
+> "Arduino was born at the Ivrea Interaction Design Institute as an easy tool for fast prototyping, aimed at students without a background in electronics and programming. " -- Learn more from the [Arduino Guide](https://www.arduino.cc/en/Guide/Introduction)
 
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources) since anyone can make a copy and adapt!
+For examples and inspiration check out the [Project Hub](https://create.arduino.cc/projecthub).
 
-## GitHub Pages 
+# 1.1 - Breadboard 
 
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/).
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+That white thing attached to your UNO? Its a solderless breadboard!
 
-Many organizations are using GitHub to collaboratively create and publish public workshop websites. 
-For example: 
+![Solderless breadboard with parts labelled](images/breadboard.jpg "breadboard")
 
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
+Breadboard make it easy to create circuits without soldering any wires together. 
+The connection is made by inserting wire into the tiny holes: 
 
-{% capture text %}Note:
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.{% endcapture %}
-{% include alert.html text=text color=secondary %}
+- Each pin hole on a `Rail` is connected vertically.
+- Each pin hole in a `Row` is connected horizontally. 
+- A `Split` runs down the middle dividing the board in two.
+
+# Inputs & Outputs
+
+Arduino is designed to make interactive projects. 
+This means it uses sensors to get input from the world, and responds by controlling actuators / outputs.
+Uno does not have any built in sensors or actuators, you connect them to the boards pins.
+
+Example sensors:
+- button
+- potentiometer (dial)
+- temperature sensor
+- accelerometer (motion sensor)
+- photoresistor (light sensor)
+
+Example outputs:
+- LED (light)
+- piezo buzzer (sound) 
+- Servo motor, DC motor (motion)
