@@ -1,0 +1,12 @@
+<script src="{{ '/assets/lib/lightgallery/lightgallery.min.js' | relative_url }}"></script>
+<script>
+(function(){
+    $("#lightgallery").lightGallery({
+        selector: '.gallery-img',
+        thumbnail:true
+    });
+    $(document).on('click', '#gallery-open', function(e) {
+        $(".gallery-img").first().trigger('click');
+    });
+})();
+</script>

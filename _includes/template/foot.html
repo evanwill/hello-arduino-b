@@ -3,4 +3,5 @@
 <!-- load other optional js -->
 {% if page.foot %}{% include {{ page.foot }} %}{% endif %}
 {% if layout.foot %}{% include {{ layout.foot }} %}{% endif %}
+{% if layout.gallery == true or page.gallery == true %}{% include template/gallery-js.html %}{% endif %}
 {% include template/scroll-to-top.html %}
