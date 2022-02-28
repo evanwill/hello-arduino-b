@@ -2,6 +2,7 @@
 title: Blink an LED
 nav: Blink
 topics: Content; Markdown; Includes
+gallery: true
 ---
 
 Building on our `Blink` skillz, lets build a LED circuit and control it with UNO!

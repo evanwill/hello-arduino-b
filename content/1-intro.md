@@ -1,6 +1,7 @@
 ---
 title: 1.0 - Introducing Arduino UNO 
 nav: Intro
+gallery: true
 ---
 
 Meet your *microcontroller*!

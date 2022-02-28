@@ -1,6 +1,7 @@
 ---
 title: Light Theremin
 nav: Buzz
+gallery: true
 ---
 
 Time to make some buzz! Let's build a light theremin. 

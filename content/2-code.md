@@ -2,6 +2,7 @@
 title: Arduino Code
 nav: Code
 topics: Template; Basic Config
+gallery: true
 ---
 
 Lets make an LED blink! 
