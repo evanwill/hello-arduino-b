@@ -2,9 +2,9 @@
 title: 1.0 - Introducing Arduino UNO 
 nav: Intro
 gallery: true
+topics: Microcontrollers; Breadboard; Input & Output
+description: Meet your Microcontroller!
 ---
-
-Meet your *microcontroller*!
 
 {% include gallery-figure.html alt="arduino board with parts labelled" img="arduino_intro1.jpg" %}
 

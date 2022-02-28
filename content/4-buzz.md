@@ -2,9 +2,9 @@
 title: Light Theremin
 nav: Buzz
 gallery: true
+topics: Piezo; Photoresistor; Tone Function
+description: Time to make some buzz! Let's build a "light theremin" that changes pitch using a photoresistor. 
 ---
-
-Time to make some buzz! Let's build a light theremin. 
 
 For this project you will need some jumper wires, a piezo, a 10k ohm resistor, and a photoresistor. 
 

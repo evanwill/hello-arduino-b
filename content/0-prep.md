@@ -1,7 +1,6 @@
 ---
 title: Preparation
 nav: Prep
-topics: GitHub; Optional Software
 ---
 
 For this workshop you will need:

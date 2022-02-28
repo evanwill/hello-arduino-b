@@ -1,11 +1,10 @@
 ---
 title: Blink an LED
 nav: Blink
-topics: Content; Markdown; Includes
 gallery: true
+topics: Circuit; LED; Output Pins
+description: Building on our `Blink` skillz, lets build a LED circuit and control it with UNO!
 ---
-
-Building on our `Blink` skillz, lets build a LED circuit and control it with UNO!
 
 For this project you will need a breadboard, some jumper wires, a 220 *or* 330 ohm resistor, and an LED. 
 
