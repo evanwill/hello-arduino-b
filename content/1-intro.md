@@ -5,7 +5,7 @@ nav: Intro
 
 Meet your *microcontroller*!
 
-![arduino board with parts labelled](images/arduino_intro1.jpg "arduino board")
+{% include gallery-figure.html alt="arduino board with parts labelled" img="arduino_intro1.jpg" %}
 
 [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) is an easy to use prototyping board based on **open-source** hardware and software. It can be programmed using Arduino's basic [language](https://www.arduino.cc/en/Reference/HomePage) to create interactive physical computing projects. 
 
@@ -17,7 +17,7 @@ For examples and inspiration check out the [Project Hub](https://create.arduino.
 
 That white thing attached to your UNO? Its a solderless breadboard!
 
-![Solderless breadboard with parts labelled](images/breadboard.jpg "breadboard")
+{% include gallery-figure.html alt="Solderless breadboard with parts labelled" img="breadboard.jpg" %}
 
 Breadboard make it easy to create circuits without soldering any wires together. 
 The connection is made by inserting wire into the tiny holes: 

@@ -7,7 +7,7 @@ Time to make some buzz! Let's build a light theremin.
 
 For this project you will need some jumper wires, a piezo, a 10k ohm resistor, and a photoresistor. 
 
-![parts needed](images/ther1.JPG)
+{% include gallery-figure.html alt="parts needed" img="ther1.jpg" %}
 
 This time we are adding a *sensor*, the photoresistor, so that UNO can get input from the outside world, i.e. UNO can get interactive! 
 The piezo provides the buzzing and we control it by having UNO read the photoresistor.
@@ -18,36 +18,36 @@ The piezo provides the buzzing and we control it by having UNO read the photores
 
 1. Gently insert the pins of your Piezo into row one and five.
 
-    ![theremin](images/ther2.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther2.jpg" %}
 
 2. Connect row one to the ground `-` rail with a wire jumper (i.e. piezo to GND)
 
-    ![theremin](images/ther3.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther3.jpg" %}
 
 3. Connect row five to pin `8` on the UNO using a wire jumper (i.e piezo to digital pin)
 
-    ![theremin](images/ther4.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther4.jpg" %}
 
 ## Connect photoresistor
 
 4. Insert the pins from the photoresistor in rows twentyfive and twentyeight.
 
-    ![theremin](images/ther5.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther5.jpg" %}
 
 5. Connect row twentyfive to the power `+` rail with a jumper wire. 
 (i.e. photoresistor to 5V)
 
-    ![theremin](images/ther6.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther6.jpg" %}
 
 6. Use 10k resistor to connect row twentyeight to ground `-` rail. 
 (i.e. photoresistor to GND)
 
-    ![theremin](images/ther7.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther7.jpg" %}
 
 7. Connect row twentyeight to Pin `A0` on the UNO. 
 (i.e. photoresistor to analog input)
 
-    ![theremin](images/ther8.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther8.jpg" %}
 
 ## Connect power 
 
@@ -55,7 +55,7 @@ The piezo provides the buzzing and we control it by having UNO read the photores
 
 10. Connect the power `+` rail to the `5V` Pin on the UNO with a power jumper wire.
 
-    ![theremin](images/ther9.jpg)
+    {% include gallery-figure.html alt="theremin" img="ther9.jpg" %}
 
 All ready to program... 
 
@@ -86,9 +86,9 @@ Put your vast knowledge of Arduino to use and build a new project based on what 
 
 2. Combine blinking LEDs and the light theremin *(note: tone() interferes with pin 11 and 3, delay() interferes with pin 5 and 6, so you can end up with odd results)*.
 
-    ![blinking theremin](images/blink_theremin.JPG)
+    {% include gallery-figure.html alt="blinking theremin" img="blink_theremin.jpg" %}
 
 3. Use another sensor to set variables for blink or theremin, for example a potentiometer or temperature sensor.  
 
-    ![temp sensor and LEDs](images/temp_sensor.JPG)
+    {% include gallery-figure.html alt="temp sensor and LEDs" img="temp_sensor.jpg" %}
 

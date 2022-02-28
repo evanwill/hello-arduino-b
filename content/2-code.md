@@ -15,7 +15,7 @@ This mini project will get you oriented to the UNO, the IDE, and the code that m
 
 1. Open Arduino Software IDE.
 
-    ![arduino IDE](images/arduinoIDE.png)
+    {% include gallery-figure.html alt="arduino IDE" img="arduinoIDE.png" %}
 
 2. Click `File` > `Examples` > `01.Basics` > `Blink`. This will open a new window with the Blink program. These built in examples are a great way to learn. You don't need to write code from scratch: borrow. That is the power of code! 
 
@@ -27,7 +27,7 @@ This mini project will get you oriented to the UNO, the IDE, and the code that m
 
 4. Plug your usb cable into your UNO and computer.
 
-    ![UNO plugged in to usb](images/first_code.JPG)
+    {% include gallery-figure.html alt="UNO plugged in to usb" img="first_code.jpg" %}
 
 5. On IDE, click `Tools` > `Board` > `Arduino/Genuino UNO` to set up the correct board.
 

@@ -8,7 +8,7 @@ Building on our `Blink` skillz, lets build a LED circuit and control it with UNO
 
 For this project you will need a breadboard, some jumper wires, a 220 *or* 330 ohm resistor, and an LED. 
 
-![led](images/led1.JPG)
+{% include gallery-figure.html alt="led" img="led1.jpg" %}
 
 > Know your LED: the longer leg is the `anode` and connects to positive voltage, i.e. `+` or `5V`; the short leg is the `cathode` and connects to ground, i.e. `-` or `GND`.  
 
@@ -17,24 +17,19 @@ For this project you will need a breadboard, some jumper wires, a 220 *or* 330 o
 # 3.1 - First circuit
 
 1. Gently push the legs of your LED into two different rows on the breadboard. Remember which one is the long leg! 
-
-    ![led](images/led2.JPG)
-
+    {% include gallery-figure.html alt="led" img="led2.jpg" %}
 2. Connect the LED `cathode` (short leg) to `GND` by inserting the legs of a 220 ohm resistor into the row and the `-` Rail. 
-
-    ![led](images/led3.JPG)
-
-3. Connect the LED `anode` (long leg) to `5V` by inserting a jumper wire into the row and the `+` Rail. 
-
-    ![led](images/led4.JPG)
+    {% include gallery-figure.html alt="led" img="led3.jpg" %}
+3. Connect the LED `anode` (long leg) to `5V` by inserting a jumper wire into the row and the `+` Rail.
+    {% include gallery-figure.html alt="led" img="led4.jpg" %}
 
 4. Connect the breadboard to the UNO's power supply: 
 - use a red jumper wire to connect the `+` rail to the pin labeled `5V` on the UNO. 
 - use a black jumper wire to connect the `-` rail to any pin labeled `GND` on the UNO (you have 3 choices). 
 
-    ![led](images/led5.JPG) 
+    {% include gallery-figure.html alt="led" img="led5.jpg" %} 
 
-    ![led](images/led6.JPG)
+    {% include gallery-figure.html alt="led" img="led6.jpg" %}
 
 5. Plug your UNO into your usb cable. 
 
@@ -48,9 +43,9 @@ This circuit is drawing power from UNO, but it is not controlled by it. We need 
 
 2. Connect the `anode` wire to pin `10` on the UNO. 
 
-    ![led](images/led7.JPG) 
+    {% include gallery-figure.html alt="led" img="led7.jpg" %} 
 
-    ![led](images/led8.JPG)
+    {% include gallery-figure.html alt="led" img="led8.jpg" %}
 
 3. On the IDE `Blink` sketch, replace `LED_BUILTIN` with `10`. The basic code should look like:
 
