@@ -12,7 +12,10 @@ nav: Prep
 
 {% endcapture %}{% include card.html text=prep %}
 
-*[The MILL](http://mill.lib.uidaho.edu/) will provide all the required materials. However, it may be helpful to set up Arduino IDE on your own computer so that you will have the code and tools available after the workshop.*
+Most of this workshop is based on projects from the official [Arduino starter kit](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us).
+This means the code examples are built into the IDE and the parts are readily available.
+
+*At U of I [The MILL](http://mill.lib.uidaho.edu/) will provide all the required materials. However, it may be helpful to set up Arduino IDE on your own computer so that you will have the code and tools available after the workshop.*
 
 ## Choosing an Arduino IDE Version
 

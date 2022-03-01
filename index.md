@@ -15,6 +15,8 @@ Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub
 
 ------
 
+Most of this workshop is based on projects from the official [Arduino starter kit](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us)!
+
 {% include template/credits.html %}
 
 Home page image: ["Arduino Uno R3", SparkFun, WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg).
