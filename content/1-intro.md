@@ -16,7 +16,7 @@ The popularly has benefits--> help and ideas are always only a quick search away
 For examples and inspiration check out the [Project Hub](https://create.arduino.cc/projecthub).
 
 {% capture quote %}
-"Arduino was born at the Ivrea Interaction Design Institute as a tool for fast prototyping, aimed at students without a background in electronics and programming. " -- Learn more from the [Arduino Guide](https://www.arduino.cc/en/Guide/Introduction){% endcapture %}{% include card.html text=quote %}
+"Arduino was born at the Ivrea Interaction Design Institute as a tool for fast prototyping, aimed at students without a background in electronics and programming." -- Learn more from the [Arduino Guide](https://www.arduino.cc/en/Guide/Introduction){% endcapture %}{% include card.html text=quote %}
 
 ## Breadboard 
 

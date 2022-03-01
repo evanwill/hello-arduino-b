@@ -17,6 +17,8 @@ This means the code examples are built into the IDE and the parts are readily av
 
 *At U of I [The MILL](http://mill.lib.uidaho.edu/) will provide all the required materials. However, it may be helpful to set up Arduino IDE on your own computer so that you will have the code and tools available after the workshop.*
 
+------------
+
 ## Choosing an Arduino IDE Version
 
 The Arduino IDE is software used to write code for your Arduino projects, then compile and load the code onto your boards.
@@ -41,15 +43,19 @@ For workshops and teaching, the "portable IDE" version might be the best option 
 This requires some manual steps to set up, follow [Arduino IDE Portable Installation](https://docs.arduino.cc/software/ide-v1/tutorials/PortableIDE).
 This version will work without administrative privileges!
 
-*Note:* version 2 of the IDE is nearing release! 
-This will have a very similar interface, but in a completely updated (and improved) package.
+{% capture v2 %}
+*Note: version 2 of the desktop IDE is nearing release!*
+
+V2 will have a very similar interface, but in a completely updated (and improved) package.
 The initial install on Windows does not require administrative privilege, however, on first time booting the IDE will try to install cores for your boards and may encounter permissions errors. 
 I was able to click the "Board Manager" tab, select "Arduino AVR Boards", and click "install" to get them manually installed and working.
+{% endcapture %}{% include card.html text=v2 extra-class="border-info" %}
 
 ### Arduino Web Editor 
 
 The Arduino website tends to push people towards using the Web Editor, which is a browser based version of the Arduino IDE. 
 It allows you to edit and store all your code online without installing the desktop IDE.
+
 The Web Editor enables some advanced IoT features (that aren't necessary if you are just getting started using Arduino UNO projects), and is tied to a subscription service model--normal use should fall in the "free" tier, but you might get reminders about how great it would be to upgrade! 
 
 To get started you will need an individual account set up and the "Arduino Create Agent" installed on your laptop with administrative privileges.
