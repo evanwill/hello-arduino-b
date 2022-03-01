@@ -37,6 +37,8 @@ For this project you will need a breadboard, some jumper wires, a 220 *or* 330 o
 
 You should now have a beautiful glowing LED!
 
+------------
+
 ## Blink it! 
 
 This circuit is drawing power from UNO, but it is not controlled by it. 
@@ -69,6 +71,8 @@ First, unplug the UNO from the USB--never modify your circuit while connected to
 4. Plug UNO into the USB, and click the upload arrow to load the sketch.
 
 You should now have a beautiful **blinking** LED! 
+
+-------------
 
 ## Extra Credit
 
