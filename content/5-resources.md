@@ -12,7 +12,7 @@ nav: Resources
 - Watch Arduino [Starter Kit videos](https://www.youtube.com/playlist?list=PLT6rF_I5kknPf2qlVFlvH47qHvqvzkknd)
 - Be inspired by [Project Hub](https://create.arduino.cc/projecthub)
 
-## Other sources
+## Other Sources
 
 - [Adafruit](https://www.adafruit.com/)
     - good source for purchasing boards, kits, and accessories, including their own lines of specialized Arduino-based boards.

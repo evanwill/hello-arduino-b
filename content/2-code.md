@@ -44,7 +44,8 @@ This mini project introduces some of the features of the IDE and can help you te
 9. Mod this code! Change the delay times or add more on/off's, then click the upload arrow to get it running on your board. Congrats: you are a <span class="term">programmer</span>!
 
 {% capture more %}
-*More info:* The Arduino IDE v1 was based on the "sketchbook" created for [Processing](https://processing.org/) and [Wiring](http://wiring.org.co/), platforms originally designed for creating interactive projects in the visual arts. 
+The Arduino IDE v1 was based on the "sketchbook" created for [Processing](https://processing.org/) and [Wiring](http://wiring.org.co/), platforms originally designed for creating interactive projects in the visual arts. 
+
 The Arduino programming language is a set of libraries in [C](https://en.wikipedia.org/wiki/C_(programming_language)) and [C++](https://en.wikipedia.org/wiki/C%2B%2B) designed for the boards. 
 Arduino IDE hides some of the complexity of setting up, but be proud that you are writing C/C++ code!
-{% endcapture %}{% include alert.html text=more %}
+{% endcapture %}{% include card.html text=more %}

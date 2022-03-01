@@ -49,7 +49,7 @@ This version will work without administrative privileges!
 V2 will have a very similar interface, but in a completely updated (and improved) package.
 The initial install on Windows does not require administrative privilege, however, on first time booting the IDE will try to install cores for your boards and may encounter permissions errors. 
 I was able to click the "Board Manager" tab, select "Arduino AVR Boards", and click "install" to get them manually installed and working.
-{% endcapture %}{% include card.html text=v2 extra-class="border-info" %}
+{% endcapture %}{% include card.html text=v2 extra-class="border-warning" %}
 
 ### Arduino Web Editor 
 
