@@ -6,7 +6,7 @@ topics: Microcontrollers; Breadboard; Input & Output
 description: Meet your Microcontroller!
 ---
 
-{% include gallery-figure.html alt="Arduino board with parts labelled: USB for power and flashing; reset button; ATmega328P microchip; input/output pins; have fun!" img="arduino_intro1.jpg" %}
+{% include gallery-figure.html alt="Arduino board with parts labelled: USB for power and flashing; reset button; ATmega328P microchip; input/output pins; sticker saying have fun!" img="arduino_intro1.jpg" %}
 
 [<span class="term">Arduino UNO</span>](https://docs.arduino.cc/hardware/uno-rev3) is a simple prototyping board based on <span class="term">open source</span> hardware and software. 
 It can be programmed using the [Arduino language](https://www.arduino.cc/reference/en/) to create interactive physical computing projects.
@@ -35,8 +35,9 @@ The connection is made by inserting wire into the tiny holes:
 ## Inputs & Outputs
 
 Arduino is designed to make interactive projects--that is, take input from the world and respond with outputs.
-Arduino does not have any built in sensors or outputs, but it does have 20 <span class="term">Pins</span>.
-We can connect inputs and outputs to the pins to bring projects to life.
+
+Arduino UNO does not have any built in sensors or outputs, but it does have 20 <span class="term">Pins</span>.
+We can connect inputs and outputs to the pins to bring projects to life!
 
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col">
@@ -52,6 +53,7 @@ We can connect inputs and outputs to the pins to bring projects to life.
 {% capture output %}
 - LED (light)
 - piezo buzzer (sound) 
-- Servo motor, DC motor (motion)
+- Servo motor (motion)
+- DC motor (motion)
 {% endcapture %}{% include card.html text=output header="Example outputs / actuators" extra-class="h-100 border-info" %}
 </div></div>
