@@ -7,8 +7,9 @@ nav: Resources
 
 - <https://www.arduino.cc/>
 - Get [Arduino IDE](https://www.arduino.cc/en/software).
-- Learn about [boards](https://www.arduino.cc/en/Main/Products) and purchase [official kits](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us).
-- Find [starter guides](https://www.arduino.cc/en/Guide), [board documentation](https://docs.arduino.cc/), and [language reference](https://www.arduino.cc/reference/en/).
+- Learn about [boards](https://www.arduino.cc/en/Main/Products) and purchase [official kits](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us)
+- Find [starter guides](https://www.arduino.cc/en/Guide), [board documentation](https://docs.arduino.cc/), and [language reference](https://www.arduino.cc/reference/en/)
+- Download the [Arduino comic book introduction](https://docs.arduino.cc/learn/starting-guide/arduino-comic)
 - Watch Arduino [Starter Kit videos](https://www.youtube.com/playlist?list=PLT6rF_I5kknPf2qlVFlvH47qHvqvzkknd)
 - Be inspired by [Project Hub](https://create.arduino.cc/projecthub)
 
