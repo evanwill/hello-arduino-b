@@ -29,27 +29,28 @@ Personally, I suggest using the desktop version for starting out.
 
 ### Arduino Desktop IDE
 
-The Desktop IDE (v1) is software than can be installed on your computer.
+The Desktop IDE (v2) is open source software than can be installed on your computer.
 
-- Visit the [Arduino Software page](https://www.arduino.cc/en/software), and look under "Downloads" for the version matching your operating system.
-
-The installation is documented step-by-step for different operating systems:
-
-- [Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows) -- download the first option ("Win 7 and newer") which is an installer file. Run the file to install on your system (this will require administrative privileges!)
-- [Mac](https://docs.arduino.cc/software/ide-v1/tutorials/macOS) -- download the Max OS X version. Drag the downloaded package into your Applications.
-- [Linux](https://docs.arduino.cc/software/ide-v1/tutorials/Linux) -- for most laptops, download the 64 bit version (if you are using Raspberry Pi you might need the ARM 32 bit version). Extract the package to a sensible location, then run the install script.
-
-For workshops and teaching, the "portable IDE" version might be the best option for Windows and Linux.
-This requires some manual steps to set up, follow [Arduino IDE Portable Installation](https://docs.arduino.cc/software/ide-v1/tutorials/PortableIDE).
-This version will work without administrative privileges!
+- Visit the [Arduino Software page](https://www.arduino.cc/en/software), and look in the "Download Options" section for the version matching your operating system.
+- Check the [installation documentation](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing) for step-by-step instructions for different operating systems:
+    - [Windows](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing#windows) -- download the first option ("Win 10 and newer") which is an installer file. Run the file to install on your system (this will require administrative privileges!)
+    - [Mac](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing#macos) -- download the Max OS version depending on your processor type. Drag the downloaded package into your Applications.
+    - [Linux](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing#linux) -- download the AppImage, set to executable, and modify USB rules.
+- Check the full [IDE documentation](https://docs.arduino.cc/software/ide-v2) for more information and tutorials.
 
 {% capture v2 %}
-*Note: version 2 of the desktop IDE is nearing release!*
+*Note: the IDE recently went through a major redesign to version 2.*
+The old version 1 is now called the *Legacy IDE*. 
 
-V2 will have a very similar interface, but in a completely updated (and improved) package.
-The initial install on Windows does not require administrative privilege, however, on first time booting the IDE will try to install cores for your boards and may encounter permissions errors. 
-I was able to click the "Board Manager" tab, select "Arduino AVR Boards", and click "install" to get them manually installed and working.
+Many tutorials and documentation still refer to the old version. 
+However, the interface and options are nearly the same!
+You should be able to follow along with out issues using the new version.
 {% endcapture %}{% include card.html text=v2 extra-class="border-warning" %}
+
+Sometimes the initial install on Windows does not require administrative privilege, however, on first time booting the IDE will try to install cores for your boards and may encounter permissions errors--click the "Board Manager" tab, select "Arduino AVR Boards", and click "install" to get them manually installed and working.
+
+For workshops and teaching where you do not have administrative privileges, unfortunately the IDE v2 doesn't have a "portable IDE" version yet.
+You can still set up a portable version using the legacy v1, follow [Arduino IDE Portable Installation](https://docs.arduino.cc/software/ide-v1/tutorials/PortableIDE).
 
 ### Arduino Web Editor 
 
@@ -64,9 +65,9 @@ In many workshop and teaching situations these requirements might make getting s
 Get started:
 
 - Visit the [Arduino Web Editor](https://create.arduino.cc/editor) and set up an account (or log in).
-- [Install the Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome) following their walk through instructions.
+- [Install the Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome) following their walk through instructions. You will need admin privileges on your computer!
 - View [Web Editor Docs](https://docs.arduino.cc/cloud/web-editor/tutorials/getting-started/getting-started-web-editor) for more info and tutorials!
 
 *Note:* the documentation is a bit of a maze, seems to be undergoing some updates and rearrangement. 
 It is easiest to use the links built into the [Web Editor](https://create.arduino.cc/editor) to find help.
-Chromebook's are supported in the newest version, which isn't clear from documentation--and you do not need the old paid app version.
+Chromebooks **are** supported in the newest version, which isn't clear from documentation--and you do not need the old paid app version!
