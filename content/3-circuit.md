@@ -8,17 +8,19 @@ description: Building on our `Blink` skillz, lets build a LED circuit and contro
 
 For this project you will need a breadboard, some jumper wires, a 220 *or* 330 ohm resistor, and an LED. 
 
-{% include gallery-figure.html alt="led" img="led1.jpg" %}
+{% include gallery-figure.html alt="An UNO board with some jumper wires, multi-colored LEDs, and resistors" img="led1.jpg" %}
 
 {% capture led %}
 *Know your LED:* the longer leg is the `anode` and connects to positive voltage, i.e. `+` or `5V`; the short leg is the `cathode` and connects to ground, i.e. `-` or `GND`.  
 
-*Know your Resistor:* resistors are marked by color bands, but they are often hard to read - you can check them with a [multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter).
-{% endcapture %}{% include card.html text=led %}
+*Know your Resistor:* resistors are marked by color bands, but they are often hard to read - you can check them with a [multimeter](https://docs.arduino.cc/learn/electronics/multimeter-basics).
+{% endcapture %}{% include card.html text=led extra-class="border-primary" %}
 
 ## First Circuit
 
-1. Gently push the legs of your LED into two different rows on the breadboard. Remember which one is the long leg! 
+With your board unplugged from your computer, start building a circuit on the breadboard:
+
+1. Gently push the legs of your LED into two different rows on the breadboard. Remember which one is the long leg (anode)! 
     {% include gallery-figure.html alt="LED legs added to breadboard rows 5 and 7" img="led2.jpg" %}
 2. Connect the LED `cathode` (short leg) to `GND` by inserting the legs of a 220 ohm resistor into the row and the `-` Rail. 
     {% include gallery-figure.html alt="220 ohm resistor added to breadboard connecting LED cathode to GND rail" img="led3.jpg" %}
@@ -42,8 +44,10 @@ You should now have a beautiful glowing LED!
 ## Blink it! 
 
 This circuit is drawing power from UNO, but it is not controlled by it. 
-We need to connect the LED to a pin so we can start blinking!
+We need to connect the LED to a pin to make it an output--i.e. so we can start blinking!
 First, unplug the UNO from the USB--never modify your circuit while connected to power!
+
+With your board unplugged from your computer:
 
 1. Unplug the wire connecting the `anode` from the `+` rail. 
 
@@ -53,7 +57,7 @@ First, unplug the UNO from the USB--never modify your circuit while connected to
 
     {% include gallery-figure.html alt="side view showing pin 10 on UNO" img="led8.jpg" %}
 
-3. On the IDE `Blink` sketch, replace `LED_BUILTIN` with `10`. The basic code should look like:
+3. On the IDE "Blink" sketch, replace `LED_BUILTIN` with `10`. The basic code should look like:
 
    ```
    void setup() {
